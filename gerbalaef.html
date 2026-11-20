@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #7af6e4; /* Light blue-gray background */
+    }
+  </style>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('https://plantscapers.com/plantfolio/herbalife/;')
+      background-size: cover;       /* Scales image to fill the entire screen */
+      background-position: center;  /* Centers the image */
+      background-repeat: no-repeat; /* Prevents tiling */
+      background-attachment: fixed; /* Keeps image stationary when scrolling */
+    }
+  </style>
+</html>
+
+
+
+
+
+
+
+
+
+
+ <html lang="">
+
+ <head>
+    <meta charset="UTF-8>
+    <title>"search"</title>
+    <style>
+        .search-box { margin: 25px auto; text-align: center; }
+        input[type="text"] { padding: 10px; width: 700px; font-size: 20px; }
+        button { padding: 10px 10px; font-size: 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+ 
+
+
+<div class="search-box">
+    <!-- Форма отправляет запрос на официальный поиск GitHub -->
+    <form id="youtube_seacrch" action="https://www.youtube.com/" method="get" target="_blank">
+        <!-- Скрытый параметр, указывающий, что мы ищем именно код (или registry, repositories и т.д.) -->
+        <input type="hidden" name="type" value="code">
+        
+        <!-- Поле ввода для пользователя -->
+        <input type="text" id="searchInput" placeholder=... required>
+        
+        <!-- Настоящее имя параметра 'q', которое уйдет в URL, сформируется через JavaScript -->
+        <input type="hidden" name="q" id="finalQuery">
+        
+        <button type="submit"> search </button>
+    </form>
+</div>
+
+<script>
+document.getElementById('githubSearchForm').addEventListener('submit', function(e) {
+    const rawInput = document.getElementById('searchInput').value.trim();
+    
+    // Если в запросе есть пробелы, оборачиваем его в кавычки для точного поиска на GitHub
+    if (rawInput.includes(' ')) {
+        document.getElementById('finalQuery').value = `"${rawInput}"`;
+    } else {
+        document.getElementById('finalQuery').value = rawInput;
+    }
+});
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <style>
+        body { size-adjust: Arial, sans-serif; margin: 0; padding: 0; background: #f3f3f3; color: #000000; text-align: center; }
+        header { background: hwb(160 65% 2%); color: #ffffff; padding: 0px 120px 30px; }
+      header h1 { margin: 0; font-size: 2.5em; }
+        header p { font-size: 1.2em; color: #fbfbfb; }
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        .section { background: rgb(254, 254, 254); padding: 30px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h2 { color: #0366d6; }
+        .links a { display: inline-block; margin: 10px; padding: 10px 20px; background: #0366d6; color: white; text-decoration: none; border-radius: 5px; transition: 0.2s; }
+        .links a:hover { background: #000000; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1></h1>
+        <p>instagram influencer/gerbalaef abasador</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Обо мне</h2>
+            <p>Привет! Я изучаю веб-разработку и это мой первый сайт, запущенный на GitHub Pages. Интересуюсь HTML, CSS и JavaScript.</p>
+        </div>
+
+        <div class="section">
+            <h2>Мои навыки</h2>
+            <p>HTML5 • CSS3 • Git & GitHub • VS Code</p>
+        </div>
+
+        <div class="section">
+         
+            </div>
+        </div>
+        <h1>go to 2.html <a href="https://refactored-guide-vpw96pgpr6q9h6vx-5502.app.github.dev/2.html">"2.html"</a><h1></h1>
+    </div>
+
+</body>
+</html>
+
+
